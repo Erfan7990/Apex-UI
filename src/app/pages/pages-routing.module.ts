@@ -153,7 +153,7 @@ const routes: Routes = [
         data: {preload: false, delay: false}
       },
       {
-        path: 'career-esquire',
+        path: 'career-apex',
         loadChildren: () => import('./career-esquire/career-esquire.module').then(m => m.CareerEsquireModule),
         data: {preload: false, delay: true}
       },

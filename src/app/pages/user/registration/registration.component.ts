@@ -143,7 +143,7 @@ export class RegistrationComponent implements OnInit, OnDestroy {
           const finalPhoneNo = '88' + this.dataForm.value.phoneNo;
           this.generatedOtpCode = this.utilsService.getRandomOtpCode6();
           console.log('OTP COde', this.generatedOtpCode);
-          const message = this.generatedOtpCode + ' is your OTP (One-Time Password) for Esquire Electronics. OTP will expire in 5 minutes.';
+          const message = this.generatedOtpCode + ' is your OTP (One-Time Password) for Apex. OTP will expire in 5 minutes.';
           // Sent Message
           this.sendSmsBySslAPi(finalPhoneNo, message, finalPhoneNo);
         } else {

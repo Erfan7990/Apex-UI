@@ -107,7 +107,7 @@ export class PasswordRecoveryComponent implements OnInit, OnDestroy {
           const finalPhoneNo = '88' + this.phoneNo;
           this.generatedOtpCode = this.utilsService.getRandomOtpCode6();
           console.log('Recovery Otp Code', this.generatedOtpCode);
-          const message = this.generatedOtpCode + ' is your OTP (One-Time Password) for password reset at Esquire Electronics. Please enter the OTP to the verification page. Thanks.';
+          const message = this.generatedOtpCode + ' is your OTP (One-Time Password) for password reset at Apex. Please enter the OTP to the verification page. Thanks.';
           // Sent Message
           this.sendSmsBySslAPi(finalPhoneNo, message, finalPhoneNo);
         } else {
@@ -176,7 +176,7 @@ export class PasswordRecoveryComponent implements OnInit, OnDestroy {
     // Create Message Data
     const finalPhoneNo = '88' + this.phoneNo;
     this.generatedOtpCode = this.utilsService.getRandomOtpCode6();
-    const message = this.generatedOtpCode + ' is your OTP (One-Time Password) for password reset at Esquire Electronics. Please enter the OTP to the verification page. Thanks.';
+    const message = this.generatedOtpCode + ' is your OTP (One-Time Password) for password reset at Apex. Please enter the OTP to the verification page. Thanks.';
     // Sent Message
     this.sendSmsBySslAPi(finalPhoneNo, message, finalPhoneNo);
   }

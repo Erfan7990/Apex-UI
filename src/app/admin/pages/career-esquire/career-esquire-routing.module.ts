@@ -5,8 +5,8 @@ import {AddCareerEsquireComponent} from './add-career-esquire/add-career-esquire
 
 const routes: Routes = [
   {path: '', component: CareerEsquireComponent},
-  {path: 'add-career-esquire', component: AddCareerEsquireComponent},
-  {path: 'edit-career-esquire/:id', component: AddCareerEsquireComponent},
+  {path: 'add-career-apex', component: AddCareerEsquireComponent},
+  {path: 'edit-career-apex/:id', component: AddCareerEsquireComponent},
 ];
 
 @NgModule({

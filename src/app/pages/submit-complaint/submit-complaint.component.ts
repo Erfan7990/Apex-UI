@@ -14,7 +14,7 @@ export class SubmitComplaintComponent implements OnInit {
   @ViewChild('formTemplate') formTemplate: NgForm;
 
   dataForm: FormGroup;
-  receivingMails = ['tuhin.tanvir_eel@esquirebd.com', 'rahman_ccd@esquirebd.com', 'online.query@esquirebd.com', 'ikram_ccd@esquirebd.com'];
+  receivingMails = ['softlabit.info@gmail.com', 'contact@softlabit.com'];
 
 
   constructor(

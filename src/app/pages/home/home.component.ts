@@ -252,21 +252,21 @@ export class HomeComponent implements OnInit {
 
   private updateMetaData() {
     // Title
-    this.title.setTitle('Esquire Electronics - Home');
+    this.title.setTitle('Apex - Home');
     // Meta
     this.meta.updateTag({name: 'robots', content: 'index, follow'});
-    this.meta.updateTag({name: 'description', content: 'Esquire Electronics is the sole authorized distributor of SHARP and GENERAL in Bangladesh. Shop online and enjoy massive discounts and free home delivery.'});
-    this.meta.updateTag({name: 'keywords', content: 'online shop, esquire, esquireelectronics, esquireelectronicsltd, esquireelectronicsltd.com'});
+    this.meta.updateTag({name: 'description', content: 'Apex is the sole authorized distributor of SHARP and GENERAL in Bangladesh. Shop online and enjoy massive discounts and free home delivery.'});
+    this.meta.updateTag({name: 'keywords', content: 'online shop, apex, apex, apex, apex.com'});
     // Facebook
-    this.meta.updateTag({name: 'og:title', content: 'Esquire Electronics - Home'});
+    this.meta.updateTag({name: 'og:title', content: 'Apex - Home'});
     this.meta.updateTag({name: 'og:type', content: 'website'});
-    this.meta.updateTag({name: 'og:url', content: 'https://esquireelectronicsltd.com/'});
-    this.meta.updateTag({name: 'og:image', content: 'https://esquireelectronicsltd.com/assets/brand/esquire.png'});
-    this.meta.updateTag({name: 'og:description', content: 'Esquire Electronics is the sole authorized distributor of SHARP and GENERAL in Bangladesh. Shop online and enjoy massive discounts and free home delivery.'});
+    this.meta.updateTag({name: 'og:url', content: 'https://apex.com/'});
+    this.meta.updateTag({name: 'og:image', content: 'https://apex.com/assets/brand/apex.png'});
+    this.meta.updateTag({name: 'og:description', content: 'Apex is the sole authorized distributor of SHARP and GENERAL in Bangladesh. Shop online and enjoy massive discounts and free home delivery.'});
     // Twitter
-    this.meta.updateTag({name: 'twitter:title', content: 'Esquire Electronics - Home'});
-    this.meta.updateTag({name: 'twitter:image', content: 'https://esquireelectronicsltd.com/assets/brand/esquire.png'});
-    this.meta.updateTag({name: 'twitter:description', content: 'Esquire Electronics is the sole authorized distributor of SHARP and GENERAL in Bangladesh. Shop online and enjoy massive discounts and free home delivery.'});
+    this.meta.updateTag({name: 'twitter:title', content: 'Apex - Home'});
+    this.meta.updateTag({name: 'twitter:image', content: 'https://apex.com/assets/brand/apex.png'});
+    this.meta.updateTag({name: 'twitter:description', content: 'Apex is the sole authorized distributor of SHARP and GENERAL in Bangladesh. Shop online and enjoy massive discounts and free home delivery.'});
 
     // Canonical
     this.canonicalService.setCanonicalURL();

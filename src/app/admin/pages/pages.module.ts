@@ -253,7 +253,7 @@ const routes: Routes = [
         canActivate: [CheckAuthAccessGuard]
       },
       {
-        path: 'career-esquire',
+        path: 'career-apex',
         loadChildren: () => import('./career-esquire/career-esquire.module').then(m => m.CareerEsquireModule),
         canActivate: [CheckAuthAccessGuard]
       },

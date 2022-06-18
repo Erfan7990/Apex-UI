@@ -90,7 +90,7 @@ export class ReplyDiscussionComponent implements OnInit, OnDestroy {
         reply: [],
         user: null,
         replyDate: new Date(),
-        name: 'Esquire Electronics',
+        name: 'Apex',
         vote: 0,
         status: true,
         profileImage: null,

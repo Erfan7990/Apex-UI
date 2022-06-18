@@ -88,7 +88,7 @@ export class EditBasicInfoComponent implements OnInit {
       const finalPhoneNo = '88' + this.formData.value.phoneNo;
       this.generatedOtpCode = this.utilsService.getRandomOtpCode6();
       console.log('OTP COde', this.generatedOtpCode);
-      const message = this.generatedOtpCode + ' is your OTP (One-Time Password) for Esquire Electronics. OTP will expire in 5 minutes.';
+      const message = this.generatedOtpCode + ' is your OTP (One-Time Password) for Apex. OTP will expire in 5 minutes.';
       this.sendSmsBySslAPi(finalPhoneNo, message, finalPhoneNo);
       this.message = this.storageService.getDataFromSessionStorage(DATABASE_KEY.otpCheck);
       if (this.message){

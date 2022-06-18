@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AdditionalPagesComponent implements OnInit {
 
   allPages: object[] = [
-    {_id: 1, name: 'Why Shop Online At Esquire Electronics', slug: 'why-shop-online-at-esquire-electronics'},
+    {_id: 1, name: 'Why Shop Online At Apex', slug: 'why-shop-online-at-apex'},
     {_id: 2, name: 'Online Purchase Procedure', slug: 'online-purchase-procedure'},
     {_id: 3, name: 'Online Payment Methods', slug: 'online-payment-methods'},
     {_id: 4, name: 'Online Payment Security', slug: 'online-payment-security'},
@@ -29,7 +29,7 @@ export class AdditionalPagesComponent implements OnInit {
     // {_id: 17, name: 'Dealer Locator', slug: 'dealer-locator'},
     {_id: 18, name: 'Sharp Brand Products', slug: 'sharp-brand-products'},
     {_id: 19, name: 'General Brand Products', slug: 'general-brand-products'},
-    {_id: 20, name: 'Career at Esquire Electronics', slug: 'career-at-esquire-electronics'},
+    {_id: 20, name: 'Career at Apex Electronics', slug: 'career-at-apex-electronics'},
     {_id: 20, name: 'Warranty Details', slug: 'warranty-details'},
     {_id: 20, name: 'Product Authenticator', slug: 'product-authenticator'},
     {_id: 21, name: 'Work With Us', slug: 'work-with-us'},

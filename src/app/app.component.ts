@@ -54,19 +54,19 @@ export class AppComponent implements OnInit {
 
   private updateMetaData() {
     // Title
-    this.title.setTitle('Esquire Electronics Ltd');
+    this.title.setTitle('Apex');
 
     // Meta
-    this.meta.addTag({name: 'author', content: 'Esquire Electronics Ltd.'});
-    this.meta.addTag({name: 'author', content: 'Esquire Electronics Ltd.'});
-    this.meta.addTag({name: 'copyright', content: 'Esquire Electronics Ltd.'});
+    this.meta.addTag({name: 'author', content: 'Apex.'});
+    this.meta.addTag({name: 'author', content: 'Apex.'});
+    this.meta.addTag({name: 'copyright', content: 'Apex.'});
     this.meta.addTag({name: 'og:locale', content: 'en_US'});
     // Open Graph
-    this.meta.addTag({name: 'og:site_name', content: 'Esquire Electronics Ltd.'});
+    this.meta.addTag({name: 'og:site_name', content: 'Apex.'});
     // Twitter
     this.meta.addTag({name: 'twitter:card', content: 'summary_large_image'});
-    this.meta.addTag({name: 'twitter:site', content: '@EsquireElectronics'});
-    this.meta.addTag({name: 'twitter:creator', content: '@EsquireElectronics/'});
+    this.meta.addTag({name: 'twitter:site', content: '@Apex'});
+    this.meta.addTag({name: 'twitter:creator', content: '@Apex/'});
   }
 
   /**

@@ -522,11 +522,11 @@ export const menuItemsAdmin: MenuAdmin[] = [
 
   {
     id: '413c',
-    title: 'Career at Esquire',
+    title: 'Career at Apex',
     icon: 'people',
     hasSubMenu: false,
     parentId: '412p',
-    routerLink: 'career-esquire',
+    routerLink: 'career-apex',
     href: null,
     target: null
   },
@@ -1203,11 +1203,11 @@ export const menuItemsSuperAdmin: MenuAdmin[] = [
 
   {
     id: '413c',
-    title: 'Career at Esquire',
+    title: 'Career at Apex',
     icon: 'people',
     hasSubMenu: false,
     parentId: '412p',
-    routerLink: 'career-esquire',
+    routerLink: 'career-apex',
     href: null,
     target: null
   },
@@ -1767,11 +1767,11 @@ export const menuItemsEditor: MenuAdmin[] = [
 
   {
     id: '413c',
-    title: 'Career at Esquire',
+    title: 'Career at Apex',
     icon: 'people',
     hasSubMenu: false,
     parentId: '412p',
-    routerLink: 'career-esquire',
+    routerLink: 'career-apex',
     href: null,
     target: null
   },
